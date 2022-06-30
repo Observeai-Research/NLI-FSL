@@ -158,4 +158,4 @@ Base code was taken from HATT-Proto ([link](https://github.com/thunlp/HATT-Proto
 python main.py --inter_data_path='../../dummy_data/' --tgt='joint' --num_samples_per_class=5
 ```
 
-The experiments for DNNC was done using ([this repository](https://github.com/salesforce/DNNC-few-shot-intent)).
+The experiments for DNNC was done using [this repository](https://github.com/salesforce/DNNC-few-shot-intent).

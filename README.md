@@ -158,15 +158,4 @@ Base code was taken from HATT-Proto ([link](https://github.com/thunlp/HATT-Proto
 python main.py --inter_data_path='../../dummy_data/' --tgt='joint' --num_samples_per_class=5
 ```
 
-
-## Zero-Shot DDN Usage
-#### Config:
-* ```--inter_data_path```: The path where the intermediate dataset constructed in the previous step is stored.
-* ```--device```: Device that you want to train the model upon (default='cuda')
-* ```--generalized```: Generalized zero shot learning or normal zero shot learning (default="no")
-* ```--encoder```: Encoder can be chosen from "USE" (Universal Sentence Encoder) or "SBERT" (SentenceBERT).
-
-### Example:
-```
-python ZS-DDN.py --inter_data_path='./dummy_data/' --num_samples_per_class=5 --generalized="no" --encoder="SBERT"
-```
+The experiments for DNNC was done using ([this repository](https://github.com/salesforce/DNNC-few-shot-intent)).
